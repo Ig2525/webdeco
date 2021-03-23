@@ -2,7 +2,33 @@
 	<HEAD>
 		<meta charset="utf-8">
 		<title> Сайт web-cnels] "Web-DECO"</title>
-	<!--=============  CSS стилі ====================--->
+	<!--============= JAVASCRIPT =================--->
+	<script type="text/javascript">
+	function send()
+	{	var valid = true;
+		var elems = document.form[0].elements;
+		for(var i=0; i<document.forms[0].length; i++)
+		{
+			if(elems[i].getAttribute('type') == 'text' ||
+			(elems[i].getAttribute('type') == 'password' ||
+			(elems[i].getAttribute('type') == 'email' 
+			{
+				if(elems[i].value ==' ') 
+				{
+					elems[i].style.border = '2px solid red';
+					valid = false;
+				}
+			}
+		}
+		if(!valid)
+		{
+			alert('Заповніть всі поля !!!');
+			return false;
+		}
+	}
+	</script>
+	<!--=========================================--->	
+	<!--============= CSS стилі =================--->
 	<style>
 	.shadowtext 
 	{
@@ -13,7 +39,7 @@
 	</style>
 	</HEAD>
 <BODY background="images/bg.jpg">
-<!--============Каркас сайта==============--->
+<!--============   Каркас сайта==============--->
 	<table border="1" align="center" cellpadding="10">
 		<tr>
 			<td background="images/bg-3.jpg" colspan="2" height="150" align="right" hspace="5"> 
