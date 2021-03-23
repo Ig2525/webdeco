@@ -3,6 +3,7 @@
 		<meta charset="utf-8">
 		<title> Сайт web-cnels] "Web-DECO"</title>
 	<!--============= JAVASCRIPT =================--->
+	<script src="js/clock1.js"></script>
 	<script type="text/javascript">
 	function send()
 	{	var valid = true;
@@ -27,7 +28,15 @@
 		}
 	}
 	</script>
-	<!--=========================================--->	
+	
+	<!--============= JAVASCRIPT CLOCK=================--->
+	<script>
+	window.onload = function() 
+	{
+		setInterval(clockPainting, 1000);
+	}
+	</script>
+	
 	<!--============= CSS стилі =================--->
 	<style>
 	.shadowtext 
@@ -59,7 +68,8 @@
 		</tr>
 		<tr>
 			<td width="30%" valign="top"> 
-		
+		<center><canvas id="canvas" height="120" width="120"></canvas></center>
+		<hr>
 			<font-size="5" color="navy"><h2>Новини</h2></font>
 			<font size="5">
 		<ul>
