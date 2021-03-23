@@ -84,7 +84,7 @@
 		
 		<hr>
 		<H1 align="center"><font color="green">Реєстрація</font><H1>
-		<form action="forma.pnp" method="post" onsubmit="return send();">
+		<form action="forma.php" method="post" onsubmit="return send();">
 		<TABLE align="center" bgcolor="#ccc">
 		<TR>
 		<TD><font color="green">Прізвище</font> : </TD>

@@ -2,7 +2,7 @@
 	<HEAD>
 		<meta charset="utf-8">
 		<title> Сайт web-cnels] "Web-DECO"</title>
-	<!--============= JAVASCRIPT =================--->
+	<!--============= JAVASCRIPT ===============180==--->
 	<script src="js/clock1.js"></script>
 	<script type="text/javascript">
 	function send()
@@ -84,7 +84,7 @@
 		
 		<hr>
 		<H1 align="center"><font color="green">Реєстрація</font><H1>
-		<form action="forma.pnp" method="post" onsubmit="return send();">
+		<form action="forma.php" method="post" onsubmit="return send();">
 		<TABLE align="center" bgcolor="#ccc">
 		<TR>
 		<TD><font color="green">Прізвище</font> : </TD>
