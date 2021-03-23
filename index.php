@@ -71,7 +71,7 @@
 		<center><canvas id="canvas" height="120" width="120"></canvas></center>
 		<hr>
 			<font-size="5" color="navy"><h2>Новини</h2></font>
-			<font size="5">
+			<font size="4">
 		<ul>
 			<li><a href="#">Сайт будівельної компанії </a></li>
 			<li><a href="#">Сайт ТМ "Новашкола"</a></li>
